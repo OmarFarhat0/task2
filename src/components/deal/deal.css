@@ -1,0 +1,75 @@
+.deal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+  justify-content: space-around;
+  padding: 0 10%;
+}
+
+.deal .image img {
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.deal .info h4 {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.deal .info p {
+  line-height: 2;
+  font-size: 14.5px;
+  color: #454d4d;
+}
+
+.deal .info p:nth-of-type(1) {
+  padding-bottom: 30px;
+}
+
+.deal .info p:nth-of-type(2) {
+  padding-bottom: 20px;
+}
+
+.deal .info button {
+  padding: 15px 25px 15px 55px;
+  border: none;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  position: relative;
+}
+
+.deal .info button::before {
+  content: "";
+  width: 45px;
+  height: 48px;
+  background: #f35525;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.deal .item {
+  border: 1px solid #ecf0f1;
+  background-color: white;
+  padding: 20px;
+}
+
+.deal .item p {
+  color: #6f7375;
+  font-size: 15px;
+  position: relative;
+}
+
+.deal .item p span {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  text-align: right;
+  position: absolute;
+  right: 0;
+}

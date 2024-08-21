@@ -1,0 +1,151 @@
+.videoView .blockOne img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.videoView .blockTwo {
+  height: 430px;
+}
+
+.videoView .introduce h2 {
+  top: 100px;
+
+  color: #f07264;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.videoView .introduce h3 {
+  top: 140px;
+  width: 30%;
+
+  text-align: center;
+  font-size: 45px;
+  color: white;
+}
+
+.videoView .container {
+  position: relative;
+}
+
+.videoView .introduce h2,
+.videoView .introduce h3,
+.videoView .theVideo video,
+.videoView .items {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.videoView .theVideo video {
+  top: 400px;
+  width: 75%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.videoView .items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  top: 820px;
+  width: 100%;
+}
+
+.videoView .items .item {
+  width: 280px;
+}
+
+@media (max-width: 480px) {
+  .videoView .blockOne img {
+    height: 430px;
+  }
+  .videoView .blockTwo {
+    height: 550px;
+  }
+  .videoView .theVideo video {
+    top: 230px;
+  }
+  .videoView .items {
+    top: 570px;
+    display: block;
+  }
+  .videoView .items .item {
+    margin: 30px auto;
+    width: 180px;
+  }
+  .videoView .introduce h2 {
+    top: 60px;
+  }
+  .videoView .introduce h3 {
+    top: 90px;
+    width: 80%;
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .videoView .blockOne img {
+    height: 470px;
+  }
+  .videoView .blockTwo {
+    height: 520px;
+  }
+  .videoView .theVideo video {
+    top: 240px;
+  }
+  .videoView .items {
+    top: 560px;
+    display: block;
+  }
+  .videoView .items .item {
+    margin: 40px auto;
+    width: 350px;
+  }
+  .videoView .introduce h2 {
+    top: 60px;
+  }
+  .videoView .introduce h3 {
+    top: 90px;
+    width: 55%;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .videoView .blockOne img {
+    height: 450px;
+  }
+  .videoView .blockTwo {
+    height: 285px;
+  }
+  .videoView .theVideo video {
+    top: 240px;
+  }
+  .videoView .items {
+    top: 600px;
+  }
+  .videoView .items .item {
+    width: 230px;
+    margin: 0;
+  }
+  .videoView .introduce h2 {
+    top: 60px;
+  }
+  .videoView .introduce h3 {
+    top: 90px;
+    width: 50%;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .videoView .previousAchievementCard::after {
+    width: 30px;
+    height: 30px;
+    top: -18px;
+    left: 93%;
+  }
+}

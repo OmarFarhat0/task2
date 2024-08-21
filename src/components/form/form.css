@@ -1,0 +1,44 @@
+.form {
+  border: 1px solid #ecf0f1;
+  background-color: white;
+  padding-left: 2%;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  border-radius: 12px;
+}
+
+.form ul li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.863);
+}
+
+.form ul li input,
+.form ul textarea {
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  width: 90%;
+  background-color: #f6f6f6;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.form input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.form textarea {
+  height: 160px;
+}

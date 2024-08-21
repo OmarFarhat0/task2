@@ -1,0 +1,133 @@
+.slider {
+  height: 680px;
+  width: 100%;
+
+  background-image: url(../../../public//images/Slider/banner-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 0 3.5%;
+
+  position: relative;
+}
+
+.slider .leftRightBtn {
+  background: none;
+  border: none;
+  background-color: #34495e;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.slider .block {
+  display: flex;
+  align-items: center;
+}
+
+.slider .introduce {
+  width: 35%;
+  margin-left: 15%;
+}
+
+.slider .introduce .from {
+  background-color: white;
+  font-size: 19px;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+}
+
+.slider .introduce .from span {
+  color: #f35525;
+}
+
+.slider .introduce .text {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 5%;
+}
+
+.slider .secondButtons {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  left: 20%;
+}
+
+.slider .secondButtons button {
+  border: 0;
+  background: 0;
+  font-weight: bold;
+  color: white;
+  font-size: 70px;
+}
+
+.slider .secondButtons .clickChangeBack0 {
+  color: #f35525;
+}
+.slider .secondButtons .clickChangeBack1,
+.slider .secondButtons .clickChangeBack2 {
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .slider {
+    height: 570px;
+  }
+  .slider .introduce {
+    width: 65%;
+  }
+  .slider .introduce .from {
+    width: 60%;
+    font-size: 15px;
+  }
+  .slider .introduce .text {
+    font-size: 36px;
+  }
+  .slider .leftRightBtn {
+    font-size: 15px;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .slider {
+    height: 600px;
+  }
+  .slider .introduce {
+    width: 50%;
+  }
+  .slider .introduce .from {
+    width: 60%;
+    font-size: 17px;
+  }
+  .slider .introduce .text {
+    font-size: 45px;
+  }
+  .slider .leftRightBtn {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .slider {
+    height: 600px;
+  }
+  .slider .introduce {
+    width: 50%;
+  }
+  .slider .introduce .from {
+    width: 60%;
+    font-size: 20px;
+  }
+  .slider .introduce .text {
+    font-size: 50px;
+  }
+}

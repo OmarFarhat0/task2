@@ -1,0 +1,119 @@
+.bestDeal {
+  background-color: #ecf0f1;
+  padding: 70px 0;
+}
+.bestDeal h2 {
+  color: #e74c3c;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-left: 6%;
+}
+
+.bestDeal .introduce {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
+}
+
+.bestDeal .introduce h3 {
+  font-size: 40px;
+  width: 60%;
+  margin-left: 10px;
+}
+
+.bestDeal .introduce button {
+  padding: 15px 25px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.bestDeal .introduce button:hover {
+  background-color: #f35525;
+}
+
+@media (max-width: 480px) {
+  .bestDeal .introduce {
+    display: block;
+    padding-left: 10%;
+  }
+
+  .bestDeal h2 {
+    padding-left: 20px;
+  }
+
+  .bestDeal .introduce button {
+    display: block;
+    margin: 10px 10px;
+  }
+  .bestDeal .introduce h3 {
+    font-size: 30px;
+  }
+
+  .deal {
+    display: block;
+  }
+
+  .deal .image img {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .bestDeal .introduce {
+    display: block;
+    padding-left: 10%;
+  }
+
+  .bestDeal h2 {
+    padding-left: 20px;
+  }
+
+  .bestDeal .introduce button {
+    display: block;
+    margin: 10px 10px;
+  }
+  .bestDeal .introduce h3 {
+    font-size: 30px;
+  }
+
+  .deal {
+    display: block;
+  }
+
+  .deal .image img {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bestDeal .introduce {
+    display: block;
+    padding-left: 10%;
+  }
+
+  .bestDeal h2 {
+    padding-left: 20px;
+  }
+
+  .bestDeal .introduce button {
+    margin: 10px 10px;
+  }
+  .bestDeal .introduce h3 {
+    font-size: 30px;
+  }
+
+  .deal {
+    display: block;
+  }
+
+  .deal .image img {
+    width: 100%;
+    padding: 10px 0;
+  }
+}

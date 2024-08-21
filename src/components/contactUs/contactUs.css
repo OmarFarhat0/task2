@@ -1,0 +1,111 @@
+.contactUs {
+  position: relative;
+}
+
+.contactUs .introduce h2,
+.contactUs .introduce h3 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contactUs .introduce h2 {
+  color: #f07264;
+  font-size: 15px;
+  margin-bottom: 20px;
+  top: 100px;
+}
+
+.contactUs .introduce h3 {
+  width: 30%;
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  top: 130px;
+}
+
+.contactUs .blockOne img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+
+.contactUs .blockTwo {
+  height: 600px;
+}
+
+.contactUs .items {
+  top: 75%;
+  left: 12%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 20%;
+}
+
+.contactUs .googleMap {
+  position: absolute;
+  width: 48%;
+  top: 30%;
+  left: 8%;
+}
+
+.contactUs .form {
+  position: absolute;
+  width: 32%;
+  top: 30%;
+  right: 8%;
+}
+
+@media (max-width: 480px) {
+  .contactUs .introduce h2 {
+    top: 40px;
+  }
+  .contactUs .introduce h3 {
+    top: 70px;
+    width: 80%;
+    font-size: 28px;
+  }
+  .contactUs .blockTwo {
+    height: 770px;
+  }
+  .contactUs .googleMap,
+  .contactUs .form {
+    top: 200px;
+  }
+  .contactUs .items {
+    top: 900px;
+    left: 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 1050px) {
+  .contactUs .introduce h2 {
+    top: 60px;
+  }
+  .contactUs .introduce h3 {
+    top: 80px;
+    width: 55%;
+    font-size: 30px;
+  }
+  .contactUs .blockTwo {
+    height: 730px;
+  }
+  .contactUs .googleMap,
+  .contactUs .form {
+    top: 200px;
+  }
+  .contactUs .items {
+    top: 900px;
+  }
+}
+
+@media (max-width: 820px) {
+  .contactUs .items {
+    display: block;
+  }
+}
+@media (max-width: 1060px) {
+  .contactUs .blockOne img {
+    height: 400px;
+  }
+}
